@@ -1,0 +1,39 @@
+.carousel-container {
+    justify-content: center;
+    display: block;
+    margin: 100px 30px;
+}
+
+.slide h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.slide {
+    outline-style: none;
+}
+
+.slick-dots li button:before {
+    font-size: 30px;
+    line-height: 20px;
+    border-radius: 100%;
+    content: "■";
+}
+
+.slick-list {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.carousel-img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slick-slider {
+    padding-bottom: 120px;
+}
+
+.slick-dots {
+    bottom: 90px;
+}
