@@ -21,12 +21,12 @@ class LambdaDemo extends Component {
     const { loading, msg } = this.state
 
     return (
-      <p>
-        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
-        <br />
-        <span>{msg}</span>
-      </p>
+//       <p>
+//         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
+//         <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
+//         <br />
+//         <span>{msg}</span>
+//       </p>
     )
   }
 }
@@ -38,8 +38,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+Halo Ges          </p>
           <LambdaDemo />
         </header>
       </div>
